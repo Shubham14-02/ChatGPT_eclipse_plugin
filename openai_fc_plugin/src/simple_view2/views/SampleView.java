@@ -116,7 +116,7 @@ public class SampleView extends ViewPart {
 				String userRequest = expressionText.getText();
 				try {
 
-					String location = getFile.process_it_please(userRequest);
+					String location = getFile.getPath(userRequest);
 					System.out.println(location);
 					resultLabel.setText("File Path: " + location);
 					container.layout(); // Update the layout to show the file path
@@ -209,7 +209,7 @@ public class SampleView extends ViewPart {
 			}
 		}
 
-		public static String process_it_please(String request) {
+		public static String getPath(String request) {
 
 			String jsonResponse = openAIChat(request);
 			System.out.println(jsonResponse);
