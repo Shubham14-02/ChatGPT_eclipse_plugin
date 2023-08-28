@@ -1,4 +1,4 @@
-![image](https://github.com/Shubham14-02/ChatGPT_eclipse_plugin/assets/65832723/0ef65296-92a4-4d99-a37e-8de37c6447c1)# ChatGPT_eclipse_plugin
+# ChatGPT_eclipse_plugin
 
 Pre-requisite: 
 1. Have a linux environment running on your machine.
@@ -16,7 +16,7 @@ Therafter, extract the files from the download zip file of this repository. You 
    ![image](https://github.com/Shubham14-02/ChatGPT_eclipse_plugin/assets/65832723/22331a2a-88d9-423a-8c77-99ef6a689cb5)
 2. Click on _Directory_ and navigate to the extracted folder of the repository and select that folder
 3. In the opened project, open the plugin.xml and click on the _Overview_ -> Launch an Eclipse application
-   ![image](https://github.com/Shubham14-02/ChatGPT_eclipse_plugin/assets/65832723/b163cb3b-5a76-460e-be04-c3f3511b8c05
+   ![image](https://github.com/Shubham14-02/ChatGPT_eclipse_plugin/assets/65832723/0ef65296-92a4-4d99-a37e-8de37c6447c1)
    This will open a seperate application for testing this project, it will not run the plugin as an Eclipse application but rather the actual project.
 4. In the newly opened window will also have the same plugin.xml open for you. In the overview section, click on _Launch an Eclipse application_
 5. This will launch the main plugin appplication where you can type in your request and Click on _Open file_ button
