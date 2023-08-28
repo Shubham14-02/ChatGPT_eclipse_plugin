@@ -104,19 +104,19 @@ public class SampleView extends ViewPart {
 		viewer = new TableViewer(container, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL);
 		viewer.setContentProvider(ArrayContentProvider.getInstance());
 		viewer.setLabelProvider(new ViewLabelProvider());
-		Button calculateButton = new Button(container, SWT.PUSH);
-		calculateButton.setText("Open file");
+		Button openFileButton = new Button(container, SWT.PUSH);
+		openFileButton.setText("Open file");
 
 		resultLabel = new Label(container, SWT.NONE);
 		resultLabel.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 3, 1));
 
-		calculateButton.addSelectionListener(new SelectionAdapter() {
+		openFileButton.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				String expression = expressionText.getText();
+				String userRequest = expressionText.getText();
 				try {
 
-					String location = getFile.process_it_please(expression);
+					String location = getFile.process_it_please(userRequest);
 					System.out.println(location);
 					resultLabel.setText("File Path: " + location);
 					container.layout(); // Update the layout to show the file path
