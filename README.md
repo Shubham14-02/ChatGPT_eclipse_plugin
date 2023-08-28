@@ -1,4 +1,6 @@
-# ChatGPT_eclipse_plugin
+# OpenAI_eclipse_plugin
+
+This repository contains a plugin for Eclipse IDE that uses OpenAI's function calling feature and opens a file for you in Eclipse.
 
 Pre-requisite: 
 1. Have a linux environment running on your machine.
@@ -21,6 +23,6 @@ Therafter, extract the files from the download zip file of this repository. You 
 4. In the newly opened window will also have the same plugin.xml open for you. In the overview section, click on _Launch an Eclipse application_
 5. This will launch the main plugin appplication where you can type in your request and Click on _Open file_ button
    ![image](https://github.com/Shubham14-02/ChatGPT_eclipse_plugin/assets/65832723/a1a0b038-c021-4311-8d09-7178ddf7e793)
-   NOTE: Your request must be elaborate i.e. you must specify where your file is located and the nested folders it is located inside
+   NOTE: Your request must be elaborate i.e. you must specify where your file is located and the nested folders it is located inside. Also include the extension of       the file if it has one.
 6. dd
 
